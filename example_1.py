@@ -10,3 +10,5 @@ print(f)
 
 table = f.table()
 print(table)
+
+print(f.eval(p=1, q=0, r=1, s=1)) # will print a bool
